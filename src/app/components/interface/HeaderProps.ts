@@ -1,3 +1,3 @@
 export default interface HeaderProps {
-    children: string;
-}
+    children: React.ReactNode;
+  }

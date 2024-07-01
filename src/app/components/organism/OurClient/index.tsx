@@ -3,7 +3,7 @@ import OurClientList from '@components/molecules/OurCLientList'
 
 const OurClient = () => {
   return (
-    <div>
+    <div className='py-8 bg-zinc-200'>
         <OurClientList/>
     </div>
   )

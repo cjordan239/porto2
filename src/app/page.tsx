@@ -1,17 +1,19 @@
 
+import FirstTemplate from "./components/Templates/firstTemplate";
 import Carousel from "./components/organism/Carousel";
 import Navbar from "./components/organism/Navbar";
-import OurClient from "./components/organism/OurClient";
-import Section3 from "./components/organism/Section3";
+import Section4 from "./components/organism/Section4";
+import Section5 from "./components/organism/Section5";
 
 export default function Home() {
   return (
     <main>
+      
       <Navbar/>
       <Carousel/>
-      <OurClient/>
-      <Section3/>
-      
+      <FirstTemplate/>
+      <Section4/>
+      <Section5/>
     </main>
   );
 }

@@ -1,4 +1,4 @@
 export default interface MainButtonProps {
     children : string;
-    onClick: React.MouseEventHandler<HTMLButtonElement>
+    onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
